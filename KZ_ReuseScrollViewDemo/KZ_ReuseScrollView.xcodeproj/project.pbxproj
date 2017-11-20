@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEA5EC0B1FC2AE51003D7BD1 /* KZ_ReuseScrollViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EC0A1FC2AE51003D7BD1 /* KZ_ReuseScrollViewFramework.framework */; };
 		AEBE6FBE1E8BA00E003BFAB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBE6FBD1E8BA00E003BFAB2 /* main.m */; };
 		AEBE6FC11E8BA00E003BFAB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBE6FC01E8BA00E003BFAB2 /* AppDelegate.m */; };
 		AEBE6FC41E8BA00E003BFAB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBE6FC31E8BA00E003BFAB2 /* ViewController.m */; };
@@ -14,11 +15,24 @@
 		AEBE6FC91E8BA00E003BFAB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBE6FC81E8BA00E003BFAB2 /* Assets.xcassets */; };
 		AEBE6FCC1E8BA00E003BFAB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBE6FCA1E8BA00E003BFAB2 /* LaunchScreen.storyboard */; };
 		AEBE6FF81E8BA9C9003BFAB2 /* KZ_ReuseScrollViewLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBE6FF71E8BA9C9003BFAB2 /* KZ_ReuseScrollViewLabelItem.m */; };
-		AEDC10361FC1D7CD00752728 /* KZ_ReuseScrollViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC10351FC1D7CD00752728 /* KZ_ReuseScrollViewFramework.framework */; };
 		AEE65F8B1E8E760700B23731 /* KZ_ReuseScrollViewTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE65F8A1E8E760700B23731 /* KZ_ReuseScrollViewTableViewItem.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AEDC10261FC1D75300752728 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AEA5EC0A1FC2AE51003D7BD1 /* KZ_ReuseScrollViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_ReuseScrollViewFramework.framework; sourceTree = "<group>"; };
 		AEBE6FB91E8BA00E003BFAB2 /* KZ_ReuseScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_ReuseScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBE6FBD1E8BA00E003BFAB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEBE6FBF1E8BA00E003BFAB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,7 +45,6 @@
 		AEBE6FCD1E8BA00E003BFAB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEBE6FF61E8BA9C9003BFAB2 /* KZ_ReuseScrollViewLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_ReuseScrollViewLabelItem.h; sourceTree = "<group>"; };
 		AEBE6FF71E8BA9C9003BFAB2 /* KZ_ReuseScrollViewLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_ReuseScrollViewLabelItem.m; sourceTree = "<group>"; };
-		AEDC10351FC1D7CD00752728 /* KZ_ReuseScrollViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_ReuseScrollViewFramework.framework; sourceTree = "<group>"; };
 		AEE65F891E8E760700B23731 /* KZ_ReuseScrollViewTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_ReuseScrollViewTableViewItem.h; sourceTree = "<group>"; };
 		AEE65F8A1E8E760700B23731 /* KZ_ReuseScrollViewTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_ReuseScrollViewTableViewItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,13 +54,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDC10361FC1D7CD00752728 /* KZ_ReuseScrollViewFramework.framework in Frameworks */,
+				AEA5EC0B1FC2AE51003D7BD1 /* KZ_ReuseScrollViewFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEA5EC091FC2AE51003D7BD1 /* ReuseScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5EC0A1FC2AE51003D7BD1 /* KZ_ReuseScrollViewFramework.framework */,
+			);
+			path = ReuseScrollView;
+			sourceTree = "<group>";
+		};
 		AEBE6FB01E8BA00E003BFAB2 = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +96,7 @@
 				AEBE6FF71E8BA9C9003BFAB2 /* KZ_ReuseScrollViewLabelItem.m */,
 				AEE65F891E8E760700B23731 /* KZ_ReuseScrollViewTableViewItem.h */,
 				AEE65F8A1E8E760700B23731 /* KZ_ReuseScrollViewTableViewItem.m */,
-				AEBE6FEF1E8BA01E003BFAB2 /* ReuseScrollView */,
+				AEA5EC091FC2AE51003D7BD1 /* ReuseScrollView */,
 				AEBE6FC51E8BA00E003BFAB2 /* Main.storyboard */,
 				AEBE6FC81E8BA00E003BFAB2 /* Assets.xcassets */,
 				AEBE6FCA1E8BA00E003BFAB2 /* LaunchScreen.storyboard */,
@@ -93,14 +114,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AEBE6FEF1E8BA01E003BFAB2 /* ReuseScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				AEDC10351FC1D7CD00752728 /* KZ_ReuseScrollViewFramework.framework */,
-			);
-			path = ReuseScrollView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,6 +124,7 @@
 				AEBE6FB51E8BA00E003BFAB2 /* Sources */,
 				AEBE6FB61E8BA00E003BFAB2 /* Frameworks */,
 				AEBE6FB71E8BA00E003BFAB2 /* Resources */,
+				AEDC10261FC1D75300752728 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
