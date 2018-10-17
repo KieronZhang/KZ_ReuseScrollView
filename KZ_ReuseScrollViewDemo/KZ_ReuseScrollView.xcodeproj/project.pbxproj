@@ -15,7 +15,7 @@
 		AE40022320A18DA800017619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40022220A18DA800017619 /* main.m */; };
 		AE40022B20A18DDC00017619 /* KZ_ReuseScrollViewTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40022720A18DDC00017619 /* KZ_ReuseScrollViewTableViewItem.m */; };
 		AE40022C20A18DDC00017619 /* KZ_ReuseScrollViewLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40022920A18DDC00017619 /* KZ_ReuseScrollViewLabelItem.m */; };
-		AE40022F20A18DF000017619 /* KZ_ReuseScrollView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40022E20A18DF000017619 /* KZ_ReuseScrollView_iOS.framework */; };
+		AEF94D902176E35E0063EE69 /* KZ_ReuseScrollView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D8F2176E35E0063EE69 /* KZ_ReuseScrollView_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		AE40022820A18DDC00017619 /* KZ_ReuseScrollViewLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_ReuseScrollViewLabelItem.h; sourceTree = "<group>"; };
 		AE40022920A18DDC00017619 /* KZ_ReuseScrollViewLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_ReuseScrollViewLabelItem.m; sourceTree = "<group>"; };
 		AE40022A20A18DDC00017619 /* KZ_ReuseScrollViewTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_ReuseScrollViewTableViewItem.h; sourceTree = "<group>"; };
-		AE40022E20A18DF000017619 /* KZ_ReuseScrollView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_ReuseScrollView_iOS.framework; sourceTree = "<group>"; };
+		AEF94D8F2176E35E0063EE69 /* KZ_ReuseScrollView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_ReuseScrollView_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE40022F20A18DF000017619 /* KZ_ReuseScrollView_iOS.framework in Frameworks */,
+				AEF94D902176E35E0063EE69 /* KZ_ReuseScrollView_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		AE40022D20A18DF000017619 /* ReuseScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				AE40022E20A18DF000017619 /* KZ_ReuseScrollView_iOS.framework */,
+				AEF94D8F2176E35E0063EE69 /* KZ_ReuseScrollView_iOS.framework */,
 			);
 			path = ReuseScrollView;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-ReuseScrollView-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.ReuseScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -345,7 +345,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-ReuseScrollView-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.ReuseScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
